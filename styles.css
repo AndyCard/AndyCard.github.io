@@ -1,0 +1,132 @@
+/* Variables*/
+:root {
+  --image: url("images/pretty.jpg");
+
+  --font: "Scala W01", "Palatino", "Book Antiqua", serif;
+  --font-size: 19px;
+
+  --post-color-opaque: rgba(255, 250, 245, 0.9);
+  --post-color-0: rgba(255, 250, 245, 0);
+  --post-color-1: rgba(255, 250, 245, 1);
+}
+
+/* Page */
+html {
+  text-rendering: optimizeLegibility;
+  font-family: var(--font);
+  font-size: var(--font-size);
+  background-image: var(--image);
+  -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
+}
+
+/* Plaque */
+.plaque {
+  padding: 0.01em;
+  background-color: var(--post-color-opaque);
+  margin: auto;
+  width: 50%;
+  display: block;
+}
+
+/* Portrait */
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 20px;
+}
+
+
+/* Post Navigation */
+.navigation {
+  font-size: 20px;
+  margin: auto;
+  padding: 0em .3em 0em .3em;
+  background-color:  rgba(255, 250, 245, .1);
+  display: table; /*for tight background shading*/
+}
+
+/* Posts */
+.post {
+  width: 35em;
+  margin: auto;
+  padding: 2em 6em 3em 6em;
+  background-color: var(--post-color-opaque);
+  line-height: 1.7;
+}
+
+.title {
+  text-align: left;
+}
+
+.date {
+  text-align: left;
+}
+
+.section {
+  text-align: left;
+}
+
+.subsection {
+  text-align: left;
+}
+
+.paragraph {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.verse {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.5;
+}
+
+.quote {
+  text-align: justify;
+  hyphens: auto;
+  font-style: italic;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+/* Links */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.download:link {
+  color: black;
+  text-decoration: underline;
+}
+
+.download:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.download:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+.download:active {
+  color: grey;
+  text-decoration: underline;
+}
