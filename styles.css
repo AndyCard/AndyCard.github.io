@@ -2,7 +2,8 @@
 :root {
   --image: url("images/pretty.jpg");
   --font: "Scala W01", "Palatino", "Book Antiqua", serif;
-  --font-size: 24px;
+  --font-size: 28px;
+  --font-button: 26px;
   --post-color-opaque: rgba(255, 250, 245, 0.9);
   --post-color-solid: rgba(255, 250, 245, 1);
 }
@@ -22,7 +23,7 @@ button {
   color: black;
   padding: 12px 40px;
   display: inline;
-  font-size: 21px;
+  font-size: var(--font-button);
   transition-duration: 0.4s;
 }
 
@@ -38,9 +39,13 @@ button:hover {
   margin: auto;
   border: 10px solid black;
   width: 500px;
-  /*line-height: 1.7;*/
   text-align: center;
   display: block;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Portrait */
