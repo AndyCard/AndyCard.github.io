@@ -3,7 +3,7 @@
   --image: url("images/pretty.jpg");
   --font: "Scala W01", "Palatino", "Book Antiqua", serif;
   --font-size: 28px;
-  --font-button: 26px;
+  --font-button: 23px;
   --post-color-opaque: rgba(255, 255, 255, 0.9);
   --post-color-solid: rgb(255, 255, 255);
 }
@@ -36,16 +36,19 @@ button:hover {
 .plaque {
   padding: .5em;
   background-color: var(--post-color-solid);
-  margin: auto;
+  
   border: 15px solid black;
   width: 500px;
   text-align: center;
   display: block;
+  /*margin: auto;*/
 
+  /*
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  */
 }
 
 /* Portrait */
