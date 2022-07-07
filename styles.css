@@ -21,76 +21,22 @@ html {
 
 /* Plaque */
 .plaque {
-  padding: 0.01em;
+  padding: .5em;
   background-color: var(--post-color-opaque);
   margin: auto;
-  width: 50%;
+  width: 500px;
+  /*line-height: 1.7;*/
+  text-align: center;
   display: block;
 }
 
 /* Portrait */
 .portrait {
+  width:250px;
+  border-radius: 25px;
+  margin: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 300px;
-  width: 20px;
 }
-
-
-/* Post Navigation */
-.navigation {
-  font-size: 20px;
-  margin: auto;
-  padding: 0em .3em 0em .3em;
-  background-color:  rgba(255, 250, 245, .1);
-  display: table; /*for tight background shading*/
-}
-
-/* Posts */
-.post {
-  width: 35em;
-  margin: auto;
-  padding: 2em 6em 3em 6em;
-  background-color: var(--post-color-opaque);
-  line-height: 1.7;
-}
-
-.title {
-  text-align: left;
-}
-
-.date {
-  text-align: left;
-}
-
-.section {
-  text-align: left;
-}
-
-.subsection {
-  text-align: left;
-}
-
-.paragraph {
-  text-align: justify;
-  hyphens: auto;
-}
-
-.verse {
-  text-align: justify;
-  hyphens: auto;
-  line-height: 1.5;
-}
-
-.quote {
-  text-align: justify;
-  hyphens: auto;
-  font-style: italic;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
 
 /* Links */
 a:link {
