@@ -2,8 +2,8 @@
 :root {
   --image: url("images/pretty.jpg");
   --font: "Scala W01", "Palatino", "Book Antiqua", serif;
-  --font-size: 28px;
-  --font-button: 23px;
+  --font-size:  170%;;
+  --font-button: 200%;
   --post-color-opaque: rgba(255, 255, 255, 0.9);
   --post-color-solid: rgb(255, 255, 255);
   --link-color: rgb(58, 23, 118);
@@ -16,6 +16,16 @@ html {
   font-size: var(--font-size);
   /*background-image: var(--image);*/
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
+}
+
+.announcement{
+  font-style: italic;
+  background-color: bisque;
+}
+
+.contact{
+  font-size: var(--font-button);
+  font-family: monospace;
 }
 
 button {
