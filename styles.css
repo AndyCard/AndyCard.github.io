@@ -4,8 +4,8 @@
   --font: "Scala W01", "Palatino", "Book Antiqua", serif;
   --font-size: 28px;
   --font-button: 26px;
-  --post-color-opaque: rgba(255, 250, 245, 0.9);
-  --post-color-solid: rgba(255, 250, 245, 1);
+  --post-color-opaque: rgba(255, 255, 255, 0.9);
+  --post-color-solid: rgb(255, 255, 255);
 }
 
 /* Page */
@@ -13,12 +13,12 @@ html {
   text-rendering: optimizeLegibility;
   font-family: var(--font);
   font-size: var(--font-size);
-  background-image: var(--image);
+  /*background-image: var(--image);*/
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
 }
 
 button {
-  background-color: rgba(255, 250, 245, 1);
+  background-color: rgb(255, 255, 255);
   border: 5px solid black;
   color: black;
   padding: 12px 40px;
