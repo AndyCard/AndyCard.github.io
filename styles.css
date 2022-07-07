@@ -6,6 +6,7 @@
   --font-button: 23px;
   --post-color-opaque: rgba(255, 255, 255, 0.9);
   --post-color-solid: rgb(255, 255, 255);
+  --link-color: rgb(58, 23, 118);
 }
 
 /* Page */
@@ -24,7 +25,8 @@ button {
   padding: 12px 40px;
   display: inline;
   font-size: var(--font-button);
-  transition-duration: 0.4s;
+  font-family: var(--font);
+  transition-duration: .4s;
 }
 
 button:hover {
@@ -37,9 +39,9 @@ button:hover {
   padding: .5em;
   background-color: var(--post-color-solid);
   
-  border: 15px solid black;
+  /*border: 15px solid black;*/
   width: 500px;
-  text-align: center;
+  /*text-align: center;*/
   display: block;
   /*margin: auto;*/
 
@@ -65,6 +67,36 @@ a:link {
 }
 
 a:visited {
-  color: black;
+  color: var(--link-color);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.download:link {
+  color: black;
+  text-decoration: underline;
+}
+
+.download:visited {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.download:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.download:active {
+  color: var(--link-color);
+  text-decoration: underline;
 }
