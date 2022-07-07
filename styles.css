@@ -37,7 +37,7 @@ button:hover {
   padding: .5em;
   background-color: var(--post-color-solid);
   margin: auto;
-  border: 10px solid black;
+  border: 15px solid black;
   width: 500px;
   text-align: center;
   display: block;
