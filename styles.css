@@ -3,7 +3,7 @@
   --image: url("images/pretty.jpg");
 
   --font: "Scala W01", "Palatino", "Book Antiqua", serif;
-  --font-size: 19px;
+  --font-size: 25px;
 
   --post-color-opaque: rgba(255, 250, 245, 0.9);
   --post-color-0: rgba(255, 250, 245, 0);
@@ -21,18 +21,18 @@ html {
 
 /* Plaque */
 .plaque {
-  padding: .5em;
+  padding: .3em;
   background-color: var(--post-color-opaque);
   margin: auto;
   width: 500px;
   /*line-height: 1.7;*/
-  text-align: center;
+  text-align: left;
   display: block;
 }
 
 /* Portrait */
 .portrait {
-  width:250px;
+  width: 230px;
   border-radius: 25px;
   margin: auto;
   display: block;
