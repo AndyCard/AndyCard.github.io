@@ -14,16 +14,18 @@ html {
   font-family: var(--font);
   font-size: var(--font-size);
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
-  overflow: hidden
+  overflow: hidden;
+  background: url("images/whisper.jpg") no-repeat 720px 170px;
+  background-size: 700px
 }
 
 body {
-  overflow: hidden
+  overflow: hidden;
 }
 
 /* Plaque */
 .plaque {
-  padding: .5em;
+  padding: 1em;
   background-color: var(--post-color-solid);
   display: block;
   border-top: 30px;
