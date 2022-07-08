@@ -3,7 +3,6 @@
   --image: url("images/pretty.jpg");
   --font: "Scala W01", "Palatino", "Book Antiqua", serif;
   --font-size:  170%;;
-  --font-button: 200%;
   --post-color-opaque: rgba(255, 255, 255, 0.9);
   --post-color-solid: rgb(255, 255, 255);
   --link-color: rgb(58, 23, 118);
@@ -14,34 +13,7 @@ html {
   text-rendering: optimizeLegibility;
   font-family: var(--font);
   font-size: var(--font-size);
-  /*background-image: var(--image);*/
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
-}
-
-.announcement{
-  font-style: italic;
-  background-color: bisque;
-}
-
-.contact{
-  font-size: var(--font-button);
-  font-family: monospace;
-}
-
-button {
-  background-color: rgb(255, 255, 255);
-  border: 5px solid black;
-  color: black;
-  padding: 12px 40px;
-  display: inline;
-  font-size: var(--font-button);
-  font-family: var(--font);
-  transition-duration: .4s;
-}
-
-button:hover {
-  background-color: rgba(0, 0, 0, 1);
-  color: white;
 }
 
 /* Plaque */
@@ -49,7 +21,13 @@ button:hover {
   padding: .5em;
   background-color: var(--post-color-solid);
   
-  /*border: 15px solid black;*/
+
+  border-top: 30px;
+  border-right: 15px;
+  border-bottom: 15px;
+  border-left: 30px;
+  border-color: black;
+  border-style:solid;
   width: 500px;
   /*text-align: center;*/
   display: block;
@@ -63,16 +41,19 @@ button:hover {
   */
 }
 
-/* Portrait */
-.portrait {
-  width: 200px;
-  margin: auto;
-  display: block;
+.announcement{
+  font-style: italic;
+  background-color: bisque;
+}
+
+.contact{
+  font-size: 100%;
+  text-decoration: underline;
 }
 
 /* Links */
 a:link {
-  color: black;
+  color: rgb(60, 60, 60);
   text-decoration: none;
 }
 
@@ -87,26 +68,6 @@ a:hover {
 }
 
 a:active {
-  color: var(--link-color);
-  text-decoration: underline;
-}
-
-.download:link {
-  color: black;
-  text-decoration: underline;
-}
-
-.download:visited {
-  color: var(--link-color);
-  text-decoration: underline;
-}
-
-.download:hover {
-  color: var(--link-color);
-  text-decoration: underline;
-}
-
-.download:active {
   color: var(--link-color);
   text-decoration: underline;
 }
