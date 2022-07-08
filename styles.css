@@ -15,7 +15,7 @@ html {
   font-size: var(--font-size);
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
   overflow: hidden;
-  background: url("images/whisper edit.png") no-repeat 720px 170px;
+  background: url("images/whisper edit.png") no-repeat 510px 150px;
   background-size: 700px
 }
 
@@ -26,7 +26,7 @@ body {
 /* Plaque */
 .plaque {
   padding: 1em;
-  background-color: var(--post-color-solid);
+  background-color: rgba(255, 255, 255, .5);
   display: block;
   border-top: 30px;
   border-right: 15px;
