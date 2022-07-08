@@ -15,7 +15,7 @@ html {
   font-size: var(--font-size);
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
   overflow: hidden;
-  background: url("images/whisper edit.png") no-repeat 510px 150px;
+  background: url("images/whisper.png") no-repeat 560px 150px;
   background-size: 700px
 }
 
