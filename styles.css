@@ -3,7 +3,7 @@
   --font-2: monospace;
   --font-size:  170%;
   --font-size-2: 140%;
-  --link-color: rgb(60, 60, 60);
+  --link-color: rgb(0, 0, 0);
   --link-color-2: rgb(58, 23, 118);
 }
 
@@ -14,12 +14,10 @@ html {
   font-size: var(--font-size);
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
-  overflow: hidden;
+
 }
 
-body {
-  overflow: hidden;
-}
+
 
 .plaque {
   padding: 1em;
