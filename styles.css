@@ -14,10 +14,12 @@ html {
   font-size: var(--font-size);
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
-
+  overflow: hidden;
 }
 
-
+body {
+  overflow: hidden;
+}
 
 .plaque {
   padding: 1em;
