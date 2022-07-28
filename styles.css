@@ -8,17 +8,13 @@
 }
 
 html {
-  background: url("images/whisper.png") no-repeat 700px 150px;
+  background: url("images/whisper.png") no-repeat 650px 150px;
   background-size: 700px;
   font-family: var(--font);
   font-size: var(--font-size);
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%; /*For mobile Safari inconsistency*/
-  overflow: hidden;
-}
-
-body {
-  overflow: hidden;
+  min-width: 1350px;
 }
 
 .plaque {
